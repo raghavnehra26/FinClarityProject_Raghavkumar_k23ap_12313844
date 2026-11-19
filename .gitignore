@@ -1,0 +1,27 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.env
+.env.*
+!.env.example
+data/*.csv
+data/*.zip
+data/managed/
+models/*.joblib
+models/versions/*.joblib
+models/versions/history.json
+reports/*.json
+
+# Local development and generated temporary files
+.chart-data-*/
+.pptx_build/
+.pytest-tmp*/
+tmp/
+
+# Separate project and archive bundles kept in this workspace
+FocusForge_Ready/
+FocusForge_Ready.zip
+CSE473_28_12313844_12323707.zip
+FinClarity_Final/
